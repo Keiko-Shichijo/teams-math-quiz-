@@ -1,0 +1,34 @@
+name: Daily Math Quiz
+
+on:
+  schedule:
+    # 22:00 UTC = 07:00 JST（配信時刻を変えたい場合はここを編集）
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  send-quiz:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Send today's question
+        env:
+          POWER_AUTOMATE_URL: ${{ secrets.POWER_AUTOMATE_URL }}
+        run: python scripts/send_question.py
+
+      - name: Commit updated history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add questions/history.json
+          git diff --cached --quiet || git commit -m "chore: update quiz history"
+          git push

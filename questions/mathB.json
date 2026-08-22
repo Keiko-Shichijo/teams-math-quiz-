@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mathB-001",
+    "subject": "数学B",
+    "unit": "数列",
+    "question": "初項3、公差4の等差数列の第10項はどれか。",
+    "choices": ["36", "39", "40", "43"],
+    "answer": 1,
+    "explanation": "a10 = 3 + (10-1)×4 = 3 + 36 = 39。"
+  },
+  {
+    "id": "mathB-002",
+    "subject": "数学B",
+    "unit": "統計的な推測",
+    "question": "確率変数Xの期待値をE(X)、分散をV(X)とするとき、Y=2X+3のV(Y)はどれか。",
+    "choices": ["V(X)", "2V(X)", "4V(X)", "4V(X)+3"],
+    "answer": 2,
+    "explanation": "V(aX+b) = a^2 V(X) なので V(2X+3) = 4V(X)。"
+  }
+]

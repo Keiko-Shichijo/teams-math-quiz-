@@ -1,0 +1,20 @@
+[
+  {
+    "id": "math2-001",
+    "subject": "数学II",
+    "unit": "指数関数・対数関数",
+    "question": "log2(8) の値として正しいものはどれか。",
+    "choices": ["2", "3", "4", "8"],
+    "answer": 1,
+    "explanation": "2^3 = 8 なので log2(8) = 3。"
+  },
+  {
+    "id": "math2-002",
+    "subject": "数学II",
+    "unit": "微分法",
+    "question": "f(x) = x^3 の導関数として正しいものはどれか。",
+    "choices": ["x^2", "2x^2", "3x^2", "3x^3"],
+    "answer": 2,
+    "explanation": "べき乗の微分公式より f'(x) = 3x^2。"
+  }
+]

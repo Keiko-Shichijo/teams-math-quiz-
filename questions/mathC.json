@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mathC-001",
+    "subject": "数学C",
+    "unit": "ベクトル",
+    "question": "ベクトルa=(1,2), b=(3,-1)の内積 a・b はどれか。",
+    "choices": ["-1", "1", "5", "7"],
+    "answer": 1,
+    "explanation": "a・b = 1×3 + 2×(-1) = 3 - 2 = 1。"
+  },
+  {
+    "id": "mathC-002",
+    "subject": "数学C",
+    "unit": "複素数平面",
+    "question": "複素数 z = 1 + i の絶対値 |z| はどれか。",
+    "choices": ["1", "√2", "2", "2√2"],
+    "answer": 1,
+    "explanation": "|z| = √(1^2 + 1^2) = √2。"
+  }
+]
