@@ -1,5 +1,5 @@
 {
-  "subject_cursor": 4,
+  "subject_cursor": 0,
   "used_ids": {
     "math1": [
       "math1-001"
@@ -13,6 +13,8 @@
     "mathB": [
       "mathB-002"
     ],
-    "mathC": []
+    "mathC": [
+      "mathC-001"
+    ]
   }
 }
