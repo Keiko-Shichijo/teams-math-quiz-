@@ -1,11 +1,12 @@
 {
-  "subject_cursor": 1,
+  "subject_cursor": 2,
   "used_ids": {
     "math1": [
       "math1-001",
       "math1-002"
     ],
     "mathA": [
+      "mathA-001",
       "mathA-002"
     ],
     "math2": [
