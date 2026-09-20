@@ -1,20 +1,36 @@
 [
-  {
-    "id": "math1-001",
-    "subject": "数学I",
-    "unit": "数と式",
-    "question": "x^2 - 5x + 6 = 0 の解として正しいものはどれか。",
-    "choices": ["x = 1, 6", "x = 2, 3", "x = -2, -3", "x = -1, -6"],
-    "answer": 1,
-    "explanation": "因数分解すると (x-2)(x-3) = 0 となるため、x = 2, 3。"
-  },
-  {
-    "id": "math1-002",
-    "subject": "数学I",
-    "unit": "図形と計量",
-    "question": "sin30°の値として正しいものはどれか。",
-    "choices": ["1/2", "√2/2", "√3/2", "1"],
-    "answer": 0,
-    "explanation": "sin30° = 1/2 は基本の三角比の値。"
-  }
+  {"id": "math1-L1-01", "subject": "数学I", "unit": "数と式", "level": 1, "question": "(x + 3)² を展開するとどうなるか。", "choices": ["x² + 9", "x² + 6x + 9", "x² + 3x + 9", "x² + 6x + 6"], "answer": 1, "explanation": "(a + b)² = a² + 2ab + b² より、x² + 6x + 9。"},
+  {"id": "math1-L1-02", "subject": "数学I", "unit": "図形と計量", "level": 1, "question": "sin30° の値はどれか。", "choices": ["√3/2", "1", "1/2", "√2/2"], "answer": 2, "explanation": "30°、60°、90° の直角三角形の辺の比 1 : 2 : √3 より、sin30° = 1/2。"},
+  {"id": "math1-L1-03", "subject": "数学I", "unit": "二次関数", "level": 1, "question": "y = x² のグラフの頂点の座標はどれか。", "choices": ["(0, 0)", "(1, 0)", "(0, 1)", "(1, 1)"], "answer": 0, "explanation": "y = x² は原点が頂点の放物線なので、頂点は (0, 0)。"},
+  {"id": "math1-L1-04", "subject": "数学I", "unit": "集合と命題", "level": 1, "question": "A = {1, 2, 3}、B = {2, 3, 4} のとき、共通部分 A∩B はどれか。", "choices": ["{1, 4}", "{1, 2}", "{1, 2, 3, 4}", "{2, 3}"], "answer": 3, "explanation": "A と B の両方に含まれる要素は 2 と 3 なので、A∩B = {2, 3}。"},
+  {"id": "math1-L1-05", "subject": "数学I", "unit": "データの分析", "level": 1, "question": "データ 2, 4, 6, 8, 10 の平均値はどれか。", "choices": ["5", "6", "7", "30"], "answer": 1, "explanation": "合計 30 を個数 5 で割って、平均値は 6。"},
+  {"id": "math1-L1-06", "subject": "数学I", "unit": "数と式", "level": 1, "question": "|−7| の値はどれか。", "choices": ["−7", "0", "7", "1/7"], "answer": 2, "explanation": "絶対値は 0 からの距離を表すので、|−7| = 7。"},
+
+  {"id": "math1-L2-01", "subject": "数学I", "unit": "数と式", "level": 2, "question": "2(x − 3) − 3(x − 1) を簡単にするとどうなるか。", "choices": ["−x − 3", "−x − 9", "5x − 9", "−x + 3"], "answer": 0, "explanation": "2x − 6 − 3x + 3 = −x − 3。"},
+  {"id": "math1-L2-02", "subject": "数学I", "unit": "数と式", "level": 2, "question": "x² − 9 を因数分解するとどうなるか。", "choices": ["(x − 3)²", "(x + 9)(x − 1)", "(x − 9)(x + 1)", "(x + 3)(x − 3)"], "answer": 3, "explanation": "a² − b² = (a + b)(a − b) より、x² − 9 = (x + 3)(x − 3)。"},
+  {"id": "math1-L2-03", "subject": "数学I", "unit": "二次関数", "level": 2, "question": "y = (x − 2)² + 3 のグラフの頂点の座標はどれか。", "choices": ["(−2, 3)", "(2, 3)", "(2, −3)", "(−2, −3)"], "answer": 1, "explanation": "y = (x − p)² + q の頂点は (p, q) なので、(2, 3)。"},
+  {"id": "math1-L2-04", "subject": "数学I", "unit": "図形と計量", "level": 2, "question": "∠C = 90° の直角三角形 ABC で、AB = 10、∠A = 30° のとき、BC の長さはどれか。", "choices": ["10", "5√3", "5", "20"], "answer": 2, "explanation": "BC = AB × sin30° = 10 × 1/2 = 5。"},
+  {"id": "math1-L2-05", "subject": "数学I", "unit": "集合と命題", "level": 2, "question": "全体集合 U = {1, 2, 3, 4, 5, 6}、A = {1, 3, 5} のとき、A の補集合はどれか。", "choices": ["{2, 4, 6}", "{1, 3, 5}", "{1, 2, 3, 4, 5, 6}", "{2, 4}"], "answer": 0, "explanation": "U の要素のうち A に含まれないものは 2, 4, 6。"},
+  {"id": "math1-L2-06", "subject": "数学I", "unit": "データの分析", "level": 2, "question": "データ 3, 5, 5, 7, 9, 11, 13 の中央値はどれか。", "choices": ["5", "6", "9", "7"], "answer": 3, "explanation": "データは 7 個なので、小さい方から 4 番目の値 7 が中央値。"},
+
+  {"id": "math1-L3-01", "subject": "数学I", "unit": "数と式", "level": 3, "question": "2次方程式 x² − 5x + 6 = 0 の解はどれか。", "choices": ["x = 1, 6", "x = 2, 3", "x = −2, −3", "x = −1, −6"], "answer": 1, "explanation": "(x − 2)(x − 3) = 0 と因数分解できるので、x = 2, 3。"},
+  {"id": "math1-L3-02", "subject": "数学I", "unit": "数と式", "level": 3, "question": "1/(√3 − 1) の分母を有理化するとどうなるか。", "choices": ["(√3 + 1)/2", "√3 + 1", "(√3 − 1)/2", "(√3 + 1)/4"], "answer": 0, "explanation": "分母分子に (√3 + 1) を掛けると、(√3 + 1)/(3 − 1) = (√3 + 1)/2。"},
+  {"id": "math1-L3-03", "subject": "数学I", "unit": "二次関数", "level": 3, "question": "y = x² − 4x + 1 を平方完成するとどうなるか。", "choices": ["y = (x − 2)² + 5", "y = (x + 2)² − 3", "y = (x − 2)² − 3", "y = (x − 4)² − 15"], "answer": 2, "explanation": "x² − 4x = (x − 2)² − 4 なので、y = (x − 2)² − 4 + 1 = (x − 2)² − 3。"},
+  {"id": "math1-L3-04", "subject": "数学I", "unit": "図形と計量", "level": 3, "question": "0° < θ < 90° で sinθ = 3/5 のとき、cosθ の値はどれか。", "choices": ["3/5", "5/4", "√7/5", "4/5"], "answer": 3, "explanation": "sin²θ + cos²θ = 1 より cos²θ = 16/25。cosθ > 0 なので、cosθ = 4/5。"},
+  {"id": "math1-L3-05", "subject": "数学I", "unit": "集合と命題", "level": 3, "question": "あるクラスで、数学が好きな人が 30 人、英語が好きな人が 25 人、両方好きな人が 10 人いる。少なくとも一方が好きな人は何人か。", "choices": ["55人", "45人", "40人", "35人"], "answer": 1, "explanation": "n(A∪B) = n(A) + n(B) − n(A∩B) = 30 + 25 − 10 = 45。"},
+  {"id": "math1-L3-06", "subject": "数学I", "unit": "データの分析", "level": 3, "question": "データ 2, 4, 4, 6, 9 の分散はどれか。", "choices": ["5.6", "4.4", "28", "5"], "answer": 0, "explanation": "平均は 5。偏差の2乗は 9, 1, 1, 1, 16 で合計 28。これを 5 で割って、分散は 5.6。"},
+
+  {"id": "math1-L4-01", "subject": "数学I", "unit": "数と式", "level": 4, "question": "2次不等式 x² − x − 6 < 0 の解はどれか。", "choices": ["x < −2 または x > 3", "−2 < x < 3", "−3 < x < 2", "x < −3 または x > 2"], "answer": 1, "explanation": "(x − 3)(x + 2) < 0 より、−2 < x < 3。"},
+  {"id": "math1-L4-02", "subject": "数学I", "unit": "数と式", "level": 4, "question": "x + 1/x = 3 のとき、x² + 1/x² の値はどれか。", "choices": ["5", "9", "7", "11"], "answer": 2, "explanation": "(x + 1/x)² = x² + 2 + 1/x² より、x² + 1/x² = 9 − 2 = 7。"},
+  {"id": "math1-L4-03", "subject": "数学I", "unit": "二次関数", "level": 4, "question": "0 ≦ x ≦ 3 における y = x² − 2x + 3 の最大値はどれか。", "choices": ["3", "5", "9", "6"], "answer": 3, "explanation": "y = (x − 1)² + 2 のグラフは下に凸で、軸 x = 1 から最も遠い x = 3 のとき最大。y = 9 − 6 + 3 = 6。"},
+  {"id": "math1-L4-04", "subject": "数学I", "unit": "図形と計量", "level": 4, "question": "△ABC で AB = 5、AC = 8、∠A = 60° のとき、BC の長さはどれか。", "choices": ["7", "√39", "√129", "9"], "answer": 0, "explanation": "余弦定理より BC² = 25 + 64 − 2·5·8·cos60° = 89 − 40 = 49。よって BC = 7。"},
+  {"id": "math1-L4-05", "subject": "数学I", "unit": "図形と計量", "level": 4, "question": "△ABC で BC = 6、∠A = 30° のとき、外接円の半径はどれか。", "choices": ["3", "6", "6√3", "12"], "answer": 1, "explanation": "正弦定理より 2R = BC/sinA = 6/(1/2) = 12。よって R = 6。"},
+  {"id": "math1-L4-06", "subject": "数学I", "unit": "データの分析", "level": 4, "question": "変量 x の平均が 10、分散が 4 のとき、y = 3x + 2 の平均と分散はどれか。", "choices": ["平均32、分散14", "平均30、分散12", "平均32、分散36", "平均32、分散12"], "answer": 2, "explanation": "平均は 3×10 + 2 = 32。分散は 3² × 4 = 36（定数 2 を足しても分散は変わらない）。"},
+
+  {"id": "math1-L5-01", "subject": "数学I", "unit": "二次関数", "level": 5, "question": "放物線 y = x² + ax + b が 2点 (1, 0)、(3, 0) を通るとき、a + b の値はどれか。", "choices": ["7", "1", "−1", "−7"], "answer": 2, "explanation": "x = 1, 3 が解なので y = (x − 1)(x − 3) = x² − 4x + 3。a = −4、b = 3 より a + b = −1。"},
+  {"id": "math1-L5-02", "subject": "数学I", "unit": "二次関数", "level": 5, "question": "すべての実数 x について x² + 2kx + k + 2 > 0 が成り立つような定数 k の範囲はどれか。", "choices": ["−1 < k < 2", "k < −1 または k > 2", "−2 < k < 1", "1 < k < 2"], "answer": 0, "explanation": "判別式 D/4 = k² − (k + 2) < 0 より k² − k − 2 < 0、(k − 2)(k + 1) < 0。よって −1 < k < 2。"},
+  {"id": "math1-L5-03", "subject": "数学I", "unit": "図形と計量", "level": 5, "question": "3辺の長さが 3、5、7 の三角形の最大の角の大きさはどれか。", "choices": ["60°", "120°", "90°", "150°"], "answer": 1, "explanation": "最大の角は長さ 7 の辺の対角。cosθ = (9 + 25 − 49)/(2·3·5) = −1/2 より θ = 120°。"},
+  {"id": "math1-L5-04", "subject": "数学I", "unit": "図形と計量", "level": 5, "question": "3辺の長さが 5、6、7 の三角形の面積はどれか。", "choices": ["6√3", "9√6", "15", "6√6"], "answer": 3, "explanation": "ヘロンの公式で s = 9 とし、S = √(9·4·3·2) = √216 = 6√6。"},
+  {"id": "math1-L5-05", "subject": "数学I", "unit": "数と式", "level": 5, "question": "√(7 + 4√3) を簡単にするとどうなるか。", "choices": ["2 + √3", "1 + 2√3", "3 + √3", "2 + 2√3"], "answer": 0, "explanation": "(2 + √3)² = 4 + 4√3 + 3 = 7 + 4√3。2 + √3 > 0 なので √(7 + 4√3) = 2 + √3。"},
+  {"id": "math1-L5-06", "subject": "数学I", "unit": "図形と計量", "level": 5, "question": "tanθ = 2（0° < θ < 90°）のとき、sinθ·cosθ の値はどれか。", "choices": ["1/5", "2/5", "4/5", "2/√5"], "answer": 1, "explanation": "1 + tan²θ = 1/cos²θ より cos²θ = 1/5。sinθ·cosθ = tanθ·cos²θ = 2 × 1/5 = 2/5。"}
 ]

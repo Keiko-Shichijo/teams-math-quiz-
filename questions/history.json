@@ -1,23 +1,4 @@
 {
-  "subject_cursor": 3,
-  "used_ids": {
-    "math1": [
-      "math1-001",
-      "math1-002"
-    ],
-    "mathA": [
-      "mathA-001",
-      "mathA-002"
-    ],
-    "math2": [
-      "math2-001",
-      "math2-002"
-    ],
-    "mathB": [
-      "mathB-002"
-    ],
-    "mathC": [
-      "mathC-001"
-    ]
-  }
+  "day_index": 0,
+  "used_ids": []
 }
