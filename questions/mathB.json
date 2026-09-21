@@ -9,7 +9,7 @@
   {"id": "mathB-L2-01", "subject": "数学B", "unit": "数列", "level": 2, "question": "初項 5、公差 −2 の等差数列の第 8 項はどれか。", "choices": ["−11", "−7", "19", "−9"], "answer": 3, "explanation": "a₈ = 5 + (8 − 1) × (−2) = 5 − 14 = −9。"},
   {"id": "mathB-L2-02", "subject": "数学B", "unit": "数列", "level": 2, "question": "初項 2、公比 3 の等比数列の第 5 項はどれか。", "choices": ["162", "486", "243", "54"], "answer": 0, "explanation": "a₅ = 2 × 3⁴ = 2 × 81 = 162。"},
   {"id": "mathB-L2-03", "subject": "数学B", "unit": "数列", "level": 2, "question": "初項 1、公差 2 の等差数列の、初項から第 10 項までの和はどれか。", "choices": ["90", "110", "100", "55"], "answer": 2, "explanation": "a₁₀ = 19。和は 10 × (1 + 19)/2 = 100。"},
-  {"id": "mathB-L2-04", "subject": "数学B", "unit": "数列", "level": 2, "question": "Σ[k=1→10] k（1 から 10 までの整数の和）の値はどれか。", "choices": ["45", "55", "50", "100"], "answer": 1, "explanation": "n(n + 1)/2 に n = 10 を代入して、10 × 11/2 = 55。"},
+  {"id": "mathB-L2-04", "subject": "数学B", "unit": "数列", "level": 2, "question": "Σₖ₌₁¹⁰ k（1 から 10 までの整数の和）の値はどれか。", "choices": ["45", "55", "50", "100"], "answer": 1, "explanation": "n(n + 1)/2 に n = 10 を代入して、10 × 11/2 = 55。"},
   {"id": "mathB-L2-05", "subject": "数学B", "unit": "統計的な推測", "level": 2, "question": "確率変数 X が 0 と 2 の値を、それぞれ確率 1/2 でとるとき、期待値 E(X) はどれか。", "choices": ["0", "2", "1/2", "1"], "answer": 3, "explanation": "E(X) = 0 × 1/2 + 2 × 1/2 = 1。"},
   {"id": "mathB-L2-06", "subject": "数学B", "unit": "統計的な推測", "level": 2, "question": "二項分布 B(10, 1/2) に従う確率変数の期待値はどれか。", "choices": ["5", "2", "10", "1/2"], "answer": 0, "explanation": "二項分布 B(n, p) の期待値は np。10 × 1/2 = 5。"},
 
@@ -21,14 +21,14 @@
   {"id": "mathB-L3-06", "subject": "数学B", "unit": "統計的な推測", "level": 3, "question": "二項分布 B(100, 0.2) に従う確率変数の分散はどれか。", "choices": ["16", "20", "4", "80"], "answer": 0, "explanation": "二項分布 B(n, p) の分散は np(1 − p) = 100 × 0.2 × 0.8 = 16。"},
 
   {"id": "mathB-L4-01", "subject": "数学B", "unit": "数列", "level": 4, "question": "初項 3、公差 4 の等差数列の、初項から第 10 項までの和はどれか。", "choices": ["195", "210", "230", "390"], "answer": 1, "explanation": "a₁₀ = 3 + 9×4 = 39。和は 10 × (3 + 39)/2 = 210。"},
-  {"id": "mathB-L4-02", "subject": "数学B", "unit": "数列", "level": 4, "question": "Σ[k=1→5] k²（1² + 2² + 3² + 4² + 5²）の値はどれか。", "choices": ["30", "75", "55", "225"], "answer": 2, "explanation": "1 + 4 + 9 + 16 + 25 = 55。（公式 n(n+1)(2n+1)/6 に n = 5 を代入しても 55）"},
+  {"id": "mathB-L4-02", "subject": "数学B", "unit": "数列", "level": 4, "question": "Σₖ₌₁⁵ k²（1² + 2² + 3² + 4² + 5²）の値はどれか。", "choices": ["30", "75", "55", "225"], "answer": 2, "explanation": "1 + 4 + 9 + 16 + 25 = 55。（公式 n(n+1)(2n+1)/6 に n = 5 を代入しても 55）"},
   {"id": "mathB-L4-03", "subject": "数学B", "unit": "数列", "level": 4, "question": "a₁ = 1、aₙ₊₁ = 2aₙ + 1 で定められる数列の第 4 項 a₄ はどれか。", "choices": ["7", "11", "31", "15"], "answer": 3, "explanation": "a₂ = 2×1 + 1 = 3、a₃ = 2×3 + 1 = 7、a₄ = 2×7 + 1 = 15。"},
   {"id": "mathB-L4-04", "subject": "数学B", "unit": "統計的な推測", "level": 4, "question": "確率変数 X について E(X) = 3、V(X) = 4 のとき、Y = 2X − 1 の期待値と分散はどれか。", "choices": ["E(Y) = 5, V(Y) = 16", "E(Y) = 5, V(Y) = 8", "E(Y) = 6, V(Y) = 16", "E(Y) = 5, V(Y) = 7"], "answer": 0, "explanation": "E(Y) = 2×3 − 1 = 5。V(Y) = 2² × 4 = 16。"},
   {"id": "mathB-L4-05", "subject": "数学B", "unit": "統計的な推測", "level": 4, "question": "確率変数 X が正規分布 N(50, 10²) に従うとき、X = 70 を標準化した値はどれか。", "choices": ["1", "2", "10", "20"], "answer": 1, "explanation": "Z = (X − 平均)/標準偏差 = (70 − 50)/10 = 2。"},
   {"id": "mathB-L4-06", "subject": "数学B", "unit": "統計的な推測", "level": 4, "question": "硬貨を 3 回投げるとき、表がちょうど 2 回出る確率はどれか。", "choices": ["1/8", "3/4", "3/8", "1/2"], "answer": 2, "explanation": "₃C₂ × (1/2)³ = 3/8。"},
 
   {"id": "mathB-L5-01", "subject": "数学B", "unit": "数列", "level": 5, "question": "数列 {aₙ} の初項から第 n 項までの和が Sₙ = n² + 2n であるとき、a₁₀ の値はどれか。", "choices": ["19", "21", "23", "120"], "answer": 1, "explanation": "a₁₀ = S₁₀ − S₉ = (100 + 20) − (81 + 18) = 120 − 99 = 21。"},
-  {"id": "mathB-L5-02", "subject": "数学B", "unit": "数列", "level": 5, "question": "Σ[k=1→4] k(k + 1)（1×2 + 2×3 + 3×4 + 4×5）の値はどれか。", "choices": ["30", "50", "60", "40"], "answer": 3, "explanation": "2 + 6 + 12 + 20 = 40。"},
+  {"id": "mathB-L5-02", "subject": "数学B", "unit": "数列", "level": 5, "question": "Σₖ₌₁⁴ k(k + 1)（1×2 + 2×3 + 3×4 + 4×5）の値はどれか。", "choices": ["30", "50", "60", "40"], "answer": 3, "explanation": "2 + 6 + 12 + 20 = 40。"},
   {"id": "mathB-L5-03", "subject": "数学B", "unit": "数列", "level": 5, "question": "数列 1, 2, 4, 7, 11, … は、隣り合う項の差（階差）が 1, 2, 3, 4, … となっている。第 10 項はどれか。", "choices": ["46", "36", "56", "55"], "answer": 0, "explanation": "a₁₀ = 1 + (1 + 2 + … + 9) = 1 + 45 = 46。"},
   {"id": "mathB-L5-04", "subject": "数学B", "unit": "数列", "level": 5, "question": "a₁ = 2、aₙ₊₁ = 3aₙ − 2 で定められる数列の第 4 項 a₄ はどれか。", "choices": ["18", "31", "28", "82"], "answer": 2, "explanation": "a₂ = 3×2 − 2 = 4、a₃ = 3×4 − 2 = 10、a₄ = 3×10 − 2 = 28。"},
   {"id": "mathB-L5-05", "subject": "数学B", "unit": "統計的な推測", "level": 5, "question": "母平均 50、母標準偏差 10 の母集団から大きさ 25 の標本を無作為抽出するとき、標本平均の標準偏差はどれか。", "choices": ["10", "2", "0.4", "5"], "answer": 1, "explanation": "標本平均の標準偏差は 母標準偏差/√n = 10/√25 = 2。"},
