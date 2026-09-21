@@ -24,3 +24,9 @@ jobs:
 
       - name: Dry run (no post, history unchanged)
         run: python scripts/send_question.py --dry-run
+
+      - name: Validate Math III question data
+        run: python scripts/send_math3.py --check
+
+      - name: Dry run Math III (no post, history unchanged)
+        run: python scripts/send_math3.py --dry-run
