@@ -1,10 +1,15 @@
 {
-  "day_index": 1,
+  "day_index": 2,
   "used_ids": [
     "math1-L1-06",
+    "math1-L5-06",
+    "math2-L2-06",
     "math2-L3-02",
+    "mathA-L1-03",
     "mathA-L2-05",
+    "mathB-L3-05",
     "mathB-L4-01",
+    "mathC-L4-04",
     "mathC-L5-02"
   ]
 }
