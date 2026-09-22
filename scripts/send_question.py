@@ -31,7 +31,9 @@ HISTORY_PATH = QUESTIONS_DIR / "history.json"
 SUBJECT_ORDER = ["math1", "mathA", "math2", "mathB", "mathC"]
 LEVELS = [1, 2, 3, 4, 5]  # 1日の出題順（易しい → 標準）
 CHOICE_MARKS = ["①", "②", "③", "④"]
-POST_INTERVAL_SEC = 3  # Teams 上で問題の順番が入れ替わらないようにする間隔
+# Teams の「ワークフロー」Webhookは、カードの投稿が終わる前に応答を返すことがあり、
+# 間隔が短いと後の問題が先に表示されることがある。十分な間隔をあけて順序を保つ。
+POST_INTERVAL_SEC = 20
 LOW_STOCK_DAYS = 7  # 残りがこの日数分以下になったら警告する
 
 _SUPERSCRIPT = str.maketrans("0123456789+-n", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿ")

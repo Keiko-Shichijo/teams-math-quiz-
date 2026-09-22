@@ -95,7 +95,7 @@ GitHub Actions（毎朝7:00 JSTに自動実行）
 | `mathA.json` | 数学A |
 | `math2.json` | 数学II |
 | `mathB.json` | 数学B |
-| `mathC.json` | 数学C |
+| `mathC.json` | 数学C（ベクトルのみ。式と曲線・複素数平面は含めていません） |
 
 以下の形式のオブジェクトを、配列の最後に（カンマで区切って）追加します。
 
@@ -130,3 +130,10 @@ GitHub Actions（毎朝7:00 JSTに自動実行）
   （UTC基準です。JSTにするには「JSTの時刻-9時間」を指定）
 - 平日のみにする場合は `cron: "0 22 * * 0-4"`（日〜木のUTC22時 = 月〜金のJST朝7時）
 - 科目の順番: `scripts/send_question.py` の `SUBJECT_ORDER` を編集
+
+## Q1〜Q5の投稿順について
+
+Teamsの「ワークフロー」Webhookは、カードの投稿が終わる前に応答を返すことがあり、
+問題どうしの送信間隔が短いと、後の問題が先にチャネルへ表示されることがあります。
+これを防ぐため、1問ずつ `POST_INTERVAL_SEC`（`scripts/send_question.py`）の間隔をあけて送信しています。
+それでも順序が入れ替わる場合は、この値をさらに増やしてください。
