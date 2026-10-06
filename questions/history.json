@@ -1,8 +1,9 @@
 {
-  "day_index": 15,
+  "day_index": 16,
   "used_ids": [
     "math1-L1-02",
     "math1-L1-04",
+    "math1-L1-05",
     "math1-L1-06",
     "math1-L2-01",
     "math1-L2-02",
@@ -25,6 +26,7 @@
     "math2-L3-02",
     "math2-L3-03",
     "math2-L3-05",
+    "math2-L3-06",
     "math2-L4-01",
     "math2-L4-05",
     "math2-L4-06",
@@ -37,6 +39,7 @@
     "mathA-L2-02",
     "mathA-L2-04",
     "mathA-L2-05",
+    "mathA-L2-06",
     "mathA-L3-02",
     "mathA-L3-05",
     "mathA-L3-06",
@@ -56,6 +59,7 @@
     "mathB-L3-04",
     "mathB-L3-05",
     "mathB-L4-01",
+    "mathB-L4-02",
     "mathB-L4-03",
     "mathB-L4-04",
     "mathB-L5-02",
@@ -75,6 +79,7 @@
     "mathC-L4-06",
     "mathC-L5-02",
     "mathC-L5-03",
+    "mathC-L5-05",
     "mathC-L5-06"
   ]
 }
