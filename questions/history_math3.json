@@ -1,5 +1,5 @@
 {
-  "day_index": 23,
+  "day_index": 24,
   "used_ids": [
     "math3-L1-01",
     "math3-L1-02",
@@ -17,6 +17,7 @@
     "math3-L1-18",
     "math3-L1-19",
     "math3-L1-20",
+    "math3-L1-21",
     "math3-L1-22",
     "math3-L1-23",
     "math3-L1-25",
@@ -24,6 +25,7 @@
     "math3-L1-27",
     "math3-L1-29",
     "math3-L1-30",
+    "math3-L3-01",
     "math3-L3-02",
     "math3-L3-03",
     "math3-L3-04",
@@ -60,6 +62,7 @@
     "math3-L5-14",
     "math3-L5-15",
     "math3-L5-16",
+    "math3-L5-17",
     "math3-L5-18",
     "math3-L5-19",
     "math3-L5-21",
